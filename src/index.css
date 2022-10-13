@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-color: #fedad5;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 700px;
+  height: 500px;
+  background-color: #e9fbee;
+  border-radius: 20px;
+  box-shadow: 15px 15px 15px -10px #e9b0a8;
+
+}
+
+.photo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 390px;
+  height: 480px;
+}
+
+.photo img {
+  width: 380px;
+  height: 380px;
+}
+
+.List {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  gap: 5px;
+  margin-top: 10px;
+  margin-right: 35px;
+}
+
+.photo h2 {
+  margin-top: 15px;
+  font-size: 16px;
+  margin-right: 250px;
+  color: #a9746d;
+}
+
+.list-div {
+  color: #a9746d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  border: 1px solid;
+}
+
+.paragraph {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: flex-start;
+  width: 290px;
+  height: 480px;
+}
+
+.cuerpo {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  width: 290px;
+  height: 480px;
+}
+
+.cuerpo h1 {
+  font-size: 18px;
+  margin-bottom: 8px;
+  color: #a9746d;
+}
+
+.cuerpo h2 {
+  margin-bottom: 15px;
+}
+
+.cash {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 35px;
+  font-weight: 450;
+  width: 50px;
+  height: 50px;
+  margin-bottom: 20px;
+  color: #a9746d
+}
+
+.cuerpo p {
+  text-align: start center justify;
+  margin-bottom: 25px;
+}
+
+.button-paragraph {
+  width: 290px;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+}
+
+.button-add {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 200px;
+  height: 40px;
+  color: white;
+  margin: 1px;
+  background-color:#a9746d;
+}
+.button-emo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 90px;
+  height: 40px;
+  color: white;
+  margin: 1px;
+  background-color:#a9746d;
+}
